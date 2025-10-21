@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Build artifacts
+.parcel-cache
+bundle.html
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
