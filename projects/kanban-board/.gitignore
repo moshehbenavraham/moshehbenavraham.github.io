@@ -8,11 +8,11 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
 dist-ssr
 *.local
 
 # Build artifacts
+# Note: dist is intentionally NOT ignored for GitHub Pages deployment
 .parcel-cache
 bundle.html
 
