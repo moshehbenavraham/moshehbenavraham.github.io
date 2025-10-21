@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  base: '/projects/kanban-board/',
+  base: '/projects/kanban-board/dist/',
   build: {
     outDir: 'dist',
   },
