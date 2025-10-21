@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liminal Geometry</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, monospace;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            padding: 2rem;
+            background: #111;
+            border-bottom: 1px solid #222;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+            color: #f5f5f5;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 0.5rem;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem 2rem;
+        }
+
+        .artwork-container {
+            max-width: 90vmin;
+            width: 100%;
+            background: #f5f3f0;
+            padding: 2rem;
+            border-radius: 4px;
+            box-shadow: 0 10px 50px rgba(0,0,0,0.5);
+        }
+
+        .artwork-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .info {
+            max-width: 600px;
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 4px;
+        }
+
+        .info h2 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #f5f5f5;
+        }
+
+        .info p {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: #aaa;
+            margin-bottom: 0.8rem;
+        }
+
+        .info .detail {
+            font-size: 0.85rem;
+            color: #666;
+            font-family: monospace;
+        }
+
+        nav {
+            padding: 1.5rem 2rem;
+            background: #111;
+            border-top: 1px solid #222;
+        }
+
+        nav a {
+            color: #888;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #f5f5f5;
+        }
+
+        @media (max-width: 768px) {
+            .artwork-container {
+                padding: 1rem;
+            }
+
+            main {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Liminal Geometry</h1>
+        <p class="subtitle">A visual exploration of threshold states through geometric precision</p>
+    </header>
+
+    <main>
+        <div class="artwork-container">
+            <img src="liminal-geometry.png" alt="Liminal Geometry - Abstract geometric artwork featuring concentric circles and minimal typography">
+        </div>
+
+        <div class="info">
+            <h2>About</h2>
+            <p>This work explores the concept of liminality through mathematical convergence. Concentric circles represent sequences approaching a limit point, embodying the paradox of perpetual becoming.</p>
+            <p>The piece employs transitional color palettes, minimal clinical typography, and precise geometric markers to suggest systematic observation of threshold states.</p>
+            <p class="detail">3000×3000px / 300 DPI / 2025</p>
+        </div>
+    </main>
+
+    <nav>
+        <a href="../../">← Back to home</a>
+    </nav>
+</body>
+</html>
