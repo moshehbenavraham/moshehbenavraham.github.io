@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Vista</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, monospace;
+            background: #000000;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            padding: 2rem;
+            background: #0a0a0a;
+            border-bottom: 1px solid #1a1a1a;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+            color: #f5f5f5;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 0.5rem;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem 2rem;
+        }
+
+        .artwork-container {
+            max-width: 95vw;
+            width: 100%;
+            background: #000000;
+            padding: 0;
+            border-radius: 4px;
+            box-shadow: 0 10px 50px rgba(100, 50, 150, 0.3);
+        }
+
+        .artwork-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+        }
+
+        .info {
+            max-width: 700px;
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: #0a0a0a;
+            border: 1px solid #1a1a1a;
+            border-radius: 4px;
+        }
+
+        .info h2 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #f5f5f5;
+        }
+
+        .info p {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: #aaa;
+            margin-bottom: 0.8rem;
+        }
+
+        .info .detail {
+            font-size: 0.85rem;
+            color: #666;
+            font-family: monospace;
+            margin-top: 1rem;
+        }
+
+        .tech-specs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #222;
+        }
+
+        .tech-specs .spec {
+            font-size: 0.85rem;
+        }
+
+        .tech-specs .spec-label {
+            color: #666;
+            font-family: monospace;
+            margin-bottom: 0.25rem;
+        }
+
+        .tech-specs .spec-value {
+            color: #aaa;
+        }
+
+        nav {
+            padding: 1.5rem 2rem;
+            background: #0a0a0a;
+            border-top: 1px solid #1a1a1a;
+        }
+
+        nav a {
+            color: #888;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #f5f5f5;
+        }
+
+        @media (max-width: 768px) {
+            .artwork-container {
+                padding: 0;
+            }
+
+            main {
+                padding: 2rem 1rem;
+            }
+
+            .tech-specs {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cosmic Vista</h1>
+        <p class="subtitle">Photorealistic volumetric rendering of deep space phenomena</p>
+    </header>
+
+    <main>
+        <div class="artwork-container">
+            <img src="cosmic-vista.png" alt="Cosmic Vista - Photorealistic rendering of nebula clouds with volumetric lighting">
+        </div>
+
+        <div class="info">
+            <h2>About</h2>
+            <p>This piece employs multi-layer volumetric rendering to capture the sublime beauty of cosmic phenomena. Nebula clouds glow with astrophysically accurate emission spectra—hydrogen-alpha magentas, oxygen-III cyans, and sulfur oranges—while volumetric light rays suggest atmospheric scattering across vast distances.</p>
+            <p>The work stratifies multiple depth planes: foreground particles catching light, mid-ground nebulosity with luminous cores, background star fields at varying intensities, and distant elliptical galaxies. Dark dust lanes carved through the composition create sculptural contrast against the luminous regions.</p>
+
+            <div class="tech-specs">
+                <div class="spec">
+                    <div class="spec-label">Resolution</div>
+                    <div class="spec-value">3600×2400px / 300 DPI</div>
+                </div>
+                <div class="spec">
+                    <div class="spec-label">Technique</div>
+                    <div class="spec-value">Layered volumetric rendering</div>
+                </div>
+                <div class="spec">
+                    <div class="spec-label">Philosophy</div>
+                    <div class="spec-value">Volumetric Sublime</div>
+                </div>
+                <div class="spec">
+                    <div class="spec-label">Reference</div>
+                    <div class="spec-value">NGC 6302 analog structure</div>
+                </div>
+            </div>
+
+            <p class="detail">Design Philosophy: Volumetric Sublime / 2025</p>
+        </div>
+    </main>
+
+    <nav>
+        <a href="../../">← Back to home</a>
+    </nav>
+</body>
+</html>
