@@ -97,6 +97,40 @@
             color: #999;
             font-size: 0.9rem;
         }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .link-group {
+            text-align: left;
+        }
+
+        .link-group h4 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #999;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .link-group a {
+            display: block;
+            color: #3498db;
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .link-group a:hover {
+            text-decoration: underline;
+            color: #2980b9;
+        }
     </style>
 </head>
 <body>
@@ -131,6 +165,21 @@
         </section>
 
         <footer>
+            <div class="links">
+                <div class="link-group">
+                    <h4>Website</h4>
+                    <a href="https://AIwithApex.com" target="_blank" rel="noopener">AIwithApex.com</a>
+                </div>
+                <div class="link-group">
+                    <h4>GitHub Repos</h4>
+                    <a href="https://github.com/moshehbenavraham" target="_blank" rel="noopener">moshehbenavraham</a>
+                    <a href="https://github.com/LuminariMUD" target="_blank" rel="noopener">LuminariMUD</a>
+                </div>
+                <div class="link-group">
+                    <h4>Community</h4>
+                    <a href="https://www.skool.com/ai-with-apex/about" target="_blank" rel="noopener">AI with Apex (Skool)</a>
+                </div>
+            </div>
             <p>Built with curiosity and code</p>
         </footer>
     </div>
