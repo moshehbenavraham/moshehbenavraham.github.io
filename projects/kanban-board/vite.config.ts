@@ -5,6 +5,9 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [react()],
   base: '/projects/kanban-board/dist/',
+  server: {
+    port: 5178,
+  },
   build: {
     outDir: 'dist',
   },
