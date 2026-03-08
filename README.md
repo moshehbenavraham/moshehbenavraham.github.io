@@ -2,6 +2,8 @@
 
 Max aka Mosheh's Sandbox - A collection of projects, experiments, and creative explorations.
 
+**Version: 0.1.0**
+
 **Live Site:** [https://moshehbenavraham.github.io](https://moshehbenavraham.github.io)
 
 ## Structure
@@ -66,3 +68,32 @@ Photorealistic volumetric rendering of cosmic phenomena with nebula fields and a
 - **Website:** [AIwithApex.com](https://AIwithApex.com)
 - **GitHub:** [moshehbenavraham](https://github.com/moshehbenavraham) | [LuminariMUD](https://github.com/LuminariMUD)
 - **Community:** [AI with Apex (Skool)](https://www.skool.com/ai-with-apex/about)
+
+## Public Repositories (by Stars)
+
+| Project | Description | Repository |
+|---------|-------------|------------|
+| **Ultimate-Agent-Directory** | The most comprehensive directory of AI agent frameworks, platforms, tools, and resources with hundreds of curated entries spanning open-source, no-code, enterprise, and autonomous solutions | https://github.com/moshehbenavraham/Ultimate-Agent-Directory |
+| **Napkin-AI-API** | Streamlit web app and Python CLI that transforms raw text into stunning professional diagrams, illustrations, and visual content across 15+ built-in styles via the Napkin AI API | https://github.com/moshehbenavraham/Napkin-AI-API |
+| **LuminariMUD** | A sprawling open-source Multi-User Dungeon engine keeping the classic MUD tradition alive with modern extensibility | https://github.com/moshehbenavraham/LuminariMUD |
+| **Voice-Agent-PuPuPlatter** | Multi-provider voice AI showcase featuring 7 providers (ElevenLabs, OpenAI, xAI, Ultravox, Vapi, Retell, Gemini Live) with real-time transcripts, audio visualization, and glassmorphism UI built on React 19 + TypeScript | https://github.com/moshehbenavraham/Voice-Agent-PuPuPlatter |
+| **apex-spec-system** | Specification-driven workflow system for AI-assisted development that breaks massive projects into manageable 2-4 hour sessions with 15-30 laser-focused tasks each | https://github.com/moshehbenavraham/apex-spec-system |
+| **n8n-aiwithapex** | Production-grade n8n workflow automation on Coolify/WSL2 with Runners, Workers, Docker, PostgreSQL, Redis, backup system, queue management, security hardening, and ngrok tunneling | https://github.com/moshehbenavraham/n8n-aiwithapex |
+| **luminaris-quest** | React/Tailwind scaffold for a healing-focused, AI-powered RPG adventure blending therapeutic mechanics with immersive gameplay | https://github.com/moshehbenavraham/luminaris-quest |
+| **ai-search** | Customized FastAPI boilerplate unifying the full Tavily SDK with both Perplexity and Gemini Deep Research APIs into one powerful search backend | https://github.com/moshehbenavraham/ai-search |
+| **wildeditor** | Full-stack wilderness editor for LuminariMUD featuring advanced drawing tools, precision coordinate systems, and real-time validation | https://github.com/moshehbenavraham/wildeditor |
+| **chat_with_google_maps** | Voice-driven AI conversation layer on top of Google Maps for hands-free geographic exploration | https://github.com/moshehbenavraham/chat_with_google_maps |
+| **AI-Automation-Agency** | AI-powered automation agency framework for orchestrating intelligent workflows | https://github.com/moshehbenavraham/AI-Automation-Agency |
+| **Houndify-Voice-Agent** | Voice agent built on SoundHound's Houndify platform for natural language voice interactions | https://github.com/moshehbenavraham/Houndify-Voice-Agent |
+| **moshehbenavraham** | Profile README showcasing projects, links, and what's currently being built | https://github.com/moshehbenavraham/moshehbenavraham |
+| **moshehbenavraham.github.io** | Max aka Mosheh's Sandbox -- a collection of projects, experiments, and creative explorations | https://github.com/moshehbenavraham/moshehbenavraham.github.io |
+| **my-next-js-app** | Next.js application scaffold for rapid full-stack prototyping | https://github.com/moshehbenavraham/my-next-js-app |
+| **openai-codex-assistant** | Personal assistant powered by OpenAI Codex for AI-augmented development workflows | https://github.com/moshehbenavraham/openai-codex-assistant |
+| **Portfolio-Frontend** | Front-end portfolio project built for IBM Developer Certification | https://github.com/moshehbenavraham/Portfolio-Frontend |
+| **Project-Webpage-for-IBM** | Personal project webpage crafted for the IBM coursework series | https://github.com/moshehbenavraham/Project-Webpage-for-IBM |
+| **gemini-perplexity-deepresearch-api** | Head-to-head deep research comparison between Perplexity and Google Gemini APIs | https://github.com/moshehbenavraham/gemini-perplexity-deepresearch-api |
+| **graphmind** | Deep dive into the Cloudflare Developer ecosystem with graph-based knowledge exploration | https://github.com/moshehbenavraham/graphmind |
+| **n8n_cc_coolify** | Build, edit, debug, backup, and maintain n8n workflows and installations entirely through Claude Code | https://github.com/moshehbenavraham/n8n_cc_coolify |
+| **crocbot** | Simplified hardened fork of OpenClaw.ai with extracted features from Agent-Zero for robust autonomous agent operation | https://github.com/moshehbenavraham/crocbot |
+| **apex-spec-system-open** | Open edition of the spec-driven AI development workflow system | https://github.com/moshehbenavraham/apex-spec-system-open |
+| **docs** | Documentation hub for projects and tooling | https://github.com/moshehbenavraham/docs |
